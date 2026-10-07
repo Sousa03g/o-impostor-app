@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Build outputs
+**/build/
+app/build/
+
+# Signing files (opcional manter keystore.properties e release.jks fora se for público, mas se for privado ou para build automático manteremos conforme regra)
